@@ -1,0 +1,17 @@
+Spiel starten
+-------------
+
+Beschreibung:
+- Zeitticker wird gestoppt
+
+Auslöser:
+- Spieler drückt auf Pause
+
+Vorbedingung:
+- Anwendung ist gestartet, Spiel ist gestartet
+
+Akteur:
+- Spieler
+
+Nachbedingunen:
+- Spiel ist pausiert

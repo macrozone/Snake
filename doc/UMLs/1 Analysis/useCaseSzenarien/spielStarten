@@ -1,0 +1,25 @@
+Spiel starten
+-------------
+
+Beschreibung:
+- Spielfeld wird generiert mit 20 x 20 Feldern
+- Hindernisse werden platziert
+- Punkte werden auf 0 gesetzt
+- Schlange wird erzeugt bestehend aus 3 glieder
+- Schlange wird auf ein zufälligs Spielfeld gesetzt
+- Schlange blickt in eine zufällige Richtung
+- eine Futterportion wird zufällig auf dem Feld platziert
+- Zeitticker wird gesetzt
+- Zeitticker wird gestartet
+
+Auslöser:
+- Spiel starten wird aufgerufen
+
+Vorbedingung:
+- Anwendung ist gestartet
+
+Akteur:
+- Spieler
+
+Nachbedingunen:
+- Schlange bewegt sich

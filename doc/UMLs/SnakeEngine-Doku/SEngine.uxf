@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><umlet_diagram><help_text>fontsize=20
+</help_text><zoom_level>10</zoom_level><element><type>com.umlet.element.base.Class</type><coordinates><x>340</x><y>220</y><w>540</w><h>380</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SEngine
+--
++ getScenePixelWidth(): int
++ getScenePixelHeight() : int
++ getStatusPixelWidth() : int
++ getStatusPixelHeight() : int
+
++ setMenuHandler(menuHandler : SEngineMenuHandler)
++ setKeyHandler(keyHandler : SEngineKeyHandler)
++ setTimerHandler(SEngineTimerHandler timerHandler)
++ setTimerIntervall(delay : int)
++ setScenePainter(painter : SEngineScenePainter)
++ setStatusPainter(painter : SEngineStatusPainter)
++ show()
++ invalidate()
+</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>340</x><y>40</y><w>390</w><h>160</h></coordinates><panel_attributes>SEngineFactory
+--
+--
+_+ makeSwingEngine() : SEngine_
+_+ makeAppletEngine() : SEngine_
+_+ makeHandyEngine() : SEngine_
+_+ makeEngine(engine : String) : SEngine_</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>50</x><y>240</y><w>260</w><h>190</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SEngineKeyHandler
+--
++ onPause()
++ onNorth()
++ onEast()
++ onSouth()
++ onWest()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>50</x><y>440</y><w>260</w><h>130</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SEngineMenuHandler
+--
++ onNewGame()
++ onPauseGame()</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>50</x><y>40</y><w>260</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SEngineScenePainter
+--
++ paintScene(g : Graphics)</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>50</x><y>140</y><w>260</w><h>90</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SEngineStatusPainter
+--
++ paintScene(g : Graphics)</panel_attributes><additional_attributes/></element><element><type>com.umlet.element.base.Class</type><coordinates><x>750</x><y>40</y><w>260</w><h>100</h></coordinates><panel_attributes>&lt;&lt;interface&gt;&gt;
+SEngineTimerHandler
+--
++ onTimer()</panel_attributes><additional_attributes/></element></umlet_diagram>
